@@ -173,7 +173,7 @@ input {
 }
 
 .close-button {
-  background-color: #f44336;
+  background-color: #9e9e9e;
   color: white;
   margin-top: 1rem;
 }
