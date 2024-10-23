@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import KidWallet from '../components/KidWallet.vue';
+
+const username = "Timmy"; // You can set this dynamically based on your needs
+---
+
+<Layout title="Cubby - Your Kid-Friendly Crypto Wallet">
+  <KidWallet client:load username={username} />
+</Layout>
